@@ -4,16 +4,14 @@
 import cv2
 
 # load the required trained XML classifiers
-# https://github.com/Itseez/opencv/blob/master/
-# data/haarcascades/haarcascade_frontalface_default.xml
+# https://github.com/AbhisheKumar1616/Face-Detection-/blob/master/frontalface.xml
 # Trained XML classifiers describes some features of some
 # object we want to detect a cascade function is trained
 # from a lot of positive(faces) and negative(non-faces)
 # images.
 face_cascade = cv2.CascadeClassifier('frontalface.xml')
 
-# https://github.com/Itseez/opencv/blob/master
-# /data/haarcascades/haarcascade_eye.xml
+# https://github.com/AbhisheKumar1616/Face-Detection-/blob/master/eye_detect.xml
 # Trained XML file for detecting eyes
 eye_cascade = cv2.CascadeClassifier('eye_detect.xml')
 
